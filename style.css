@@ -1,0 +1,32 @@
+.container
+{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 30px -10px ;
+    text-align: center;
+    font-size: 60px;
+}
+.button-container
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    padding: 10px;
+}
+
+.btn
+{
+    width: 30%;
+    margin: auto;
+    min-height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container span
+{
+    font-size: 100px;
+}
